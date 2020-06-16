@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimaryDark"
     tools:context=".MainActivity">
-    
+
     <ImageView
         android:id="@+id/ivSplash"
         android:layout_width="380dp"
