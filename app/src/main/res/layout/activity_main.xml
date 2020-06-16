@@ -62,6 +62,7 @@
         android:text="Get Started"
         android:textAllCaps="false"
         android:textColor="#fff"
+        android:background="@drawable/bgbtngreen"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
