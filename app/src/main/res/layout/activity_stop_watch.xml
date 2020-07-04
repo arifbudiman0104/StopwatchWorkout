@@ -12,25 +12,23 @@
         android:layout_width="276dp"
         android:layout_height="247dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="56dp"
         android:src="@drawable/bgcircle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/icanchor"
         android:layout_width="358dp"
         android:layout_height="357dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="0dp"
         android:src="@drawable/icanchor"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Chronometer
         android:id="@+id/timerHere"
