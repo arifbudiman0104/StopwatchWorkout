@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         btnget.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent( MainActivity.this, StopWatchActivity.class);
+                Intent a = new Intent( MainActivity.this, SelectWorkoutActivity.class);
                 a.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(a);
             }

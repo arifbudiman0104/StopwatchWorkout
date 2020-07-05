@@ -73,12 +73,12 @@
                         android:textSize="19dp"
                         android:textStyle="normal" />
 
-                    <ImageView
-                        android:id="@+id/imageViewMountainClimber"
-                        android:layout_width="364dp"
-                        android:layout_height="226dp"
-                        android:layout_marginStart="25dp"
-                        app:srcCompat="@drawable/montain_climber" />
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/montain_climber"
+                        android:background="#fff"
+                        />
                 </LinearLayout>
 
 
